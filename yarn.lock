@@ -102,21 +102,6 @@
     did-resolver "^1.1.0"
     ipfs-did-document "^1.2.3"
 
-"@agoric/babel-standalone@^7.9.5":
-  version "7.9.5"
-  resolved "https://registry.yarnpkg.com/@agoric/babel-standalone/-/babel-standalone-7.9.5.tgz#1ca0c17844924199d31e49d6b67e8b2a629b8599"
-  integrity sha512-1Aa23oPuRi4kywUyZODo8zey9Gq2NpD2xUnNvgJLoT8orMQRlVOtvbG3JeHq5sjJERlF/q6csg4/P8t8/5IABA==
-
-"@agoric/make-hardener@^0.1.2":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@agoric/make-hardener/-/make-hardener-0.1.3.tgz#807b0072bef95d935c3370d406d9dfeb719f69ee"
-  integrity sha512-rc9M2ErE/Zu822OLCnAltr957ZVTsBvVZ7KA2unqDpjo3q7PqZF2hWFB1xXD2Qkfwt5exQ3BjFbkj+NUaTg4gA==
-
-"@agoric/transform-module@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@agoric/transform-module/-/transform-module-0.4.1.tgz#9fb152364faf372e1bda535cb4ef89717724f57c"
-  integrity sha512-4TJJHXeXAWu1FCA7yXCAZmhBNoGTB/BEAe2pv+J2X8W/mJTr9b395OkDCSRMpzvmSshLfBx6wT0D7dqWIWEC1w==
-
 "@apocentre/alias-sampling@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@apocentre/alias-sampling/-/alias-sampling-0.5.3.tgz#897ff181b48ad7b2bcb4ecf29400214888244f08"
@@ -25773,15 +25758,6 @@ serve-static@1.14.1:
     parseurl "~1.3.3"
     send "0.17.1"
 
-ses@^0.12.4:
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/ses/-/ses-0.12.4.tgz#f466f7199292b5c4454949c7d497f5569ade5805"
-  integrity sha512-qbtkhuuAXNXb390yiaNUdNvDg/QmX7W2cO+srIUJllINMYADc/8m0vt7DNBmq+rqOBRrjVRPPeyQq8ZTLK3Rmw==
-  dependencies:
-    "@agoric/babel-standalone" "^7.9.5"
-    "@agoric/make-hardener" "^0.1.2"
-    "@agoric/transform-module" "^0.4.1"
-
 ses@^0.15.15:
   version "0.15.15"
   resolved "https://registry.yarnpkg.com/ses/-/ses-0.15.15.tgz#082923a1cabeac3151f9b3867e325fe447ce037d"
@@ -27236,7 +27212,20 @@ tar@6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-tar@^4, tar@^6.0.2, tar@^6.1.2:
+tar@^4:
+  version "4.4.19"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.19.tgz#2e4d7263df26f2b914dee10c825ab132123742f3"
+  integrity sha512-a20gEsvHnWe0ygBY8JbxoM4w3SJdhc7ZAuxkLqh+nvNQN2IOt0B5lLgM490X5Hl8FF0dl0tOf2ewFYAlIFgzVA==
+  dependencies:
+    chownr "^1.1.4"
+    fs-minipass "^1.2.7"
+    minipass "^2.9.0"
+    minizlib "^1.3.3"
+    mkdirp "^0.5.5"
+    safe-buffer "^5.2.1"
+    yallist "^3.1.1"
+
+tar@^6.0.2, tar@^6.1.2:
   version "6.1.3"
   resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.3.tgz#e44b97ee7d6cc7a4c574e8b01174614538291825"
   integrity sha512-3rUqwucgVZXTeyJyL2jqtUau8/8r54SioM1xj3AmTX3HnWQdj2AydfJ2qYYayPyIIznSplcvU9mhBb7dR2XF3w==
