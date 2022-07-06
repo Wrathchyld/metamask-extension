@@ -2899,12 +2899,12 @@
     hdkey "^2.0.1"
     uuid "^8.3.2"
 
-"@keystonehq/bc-ur-registry-eth@^0.6.8":
-  version "0.6.13"
-  resolved "https://registry.yarnpkg.com/@keystonehq/bc-ur-registry-eth/-/bc-ur-registry-eth-0.6.13.tgz#c1680930b1d3fed14857336bd4fb47a484dfac32"
-  integrity sha512-sQQMMiKlacxMOIGeH8l/m/j3sL2VaM7Zid/xvf6cogZ5EZ5pa8Jow8cgY/t7krTOOBp81/GglCbwCGC8RIOLqA==
+"@keystonehq/bc-ur-registry-eth@^0.11.3":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@keystonehq/bc-ur-registry-eth/-/bc-ur-registry-eth-0.11.4.tgz#01d1669ea1bc7a591ae90923c30fde960c24c876"
+  integrity sha512-iXf5hLd0j0VuQdWUh6h7wi5j1PAkH6AGyUr1ZAYMtPflQRW/AzXEOw5GFB3dF5xi8uVoP36gPPnYFBmcFOFzqg==
   dependencies:
-    "@keystonehq/bc-ur-registry" "^0.4.4"
+    "@keystonehq/bc-ur-registry" "^0.5.0-alpha.5"
     ethereumjs-util "^7.0.8"
     hdkey "^2.0.1"
     uuid "^8.3.2"
