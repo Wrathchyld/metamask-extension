@@ -134,7 +134,7 @@
     "@ngraveio/bc-ur": "^1.1.6",
     "@popperjs/core": "^2.4.0",
     "@reduxjs/toolkit": "^1.6.2",
-    "@sentry/browser": "^6.0.0",
+    "@sentry/browser": "^6.19.7",
     "@sentry/integrations": "^6.19.7",
     "@truffle/codec": "^0.11.18",
     "@truffle/decoder": "^5.1.0",
